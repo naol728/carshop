@@ -1,0 +1,378 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+body{
+font-family: cursive;
+}
+
+header h1{
+    margin-top: 22px;
+    font-size: 2rem;
+    font-weight:bolder;
+    margin-left:4rem;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    gap: 2.5rem;
+    list-style: none;
+}
+header li{
+    display: inline;
+}
+header a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    opacity:0.7;
+}
+header a:hover{
+    background-color: #000;
+   opacity: 1;
+   color:white;
+   border-radius: 8px;    
+}
+.icon{
+    display: inline;
+    font-size: 24px;
+    color: #000;
+}
+.page1 h1{
+    margin-top: 22PX;
+    font-size: 3rem;
+    font-family:cursive;
+    text-align: center;
+    font-weight: 300;
+}
+.page1 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.about li{
+    list-style: none;
+    padding-top: 24px;
+}
+.info{
+    font-size:1rem;
+    color: whitesmoke;
+}
+.num{
+    font-size:34px;
+    color: white;
+}
+.page2{
+    display: flex;
+    justify-content: space-around;
+}
+.page2 figure{
+    float: left;
+}
+#discription{
+    margin-top:50px;
+  text-align: left;
+}
+#discription ul{
+    list-style: none;
+    word-spacing: 1.5rem;
+    line-height:2.4rem;
+}
+.page2 h2{
+    font-size:2.5rem;
+    font-weight:600;
+}
+.page2 p{
+    font-size:1.5rem;
+    margin-bottom: 22px;
+}
+.page2 a{
+    text-decoration: none;
+}
+.price p,.price button{
+    display: inline;
+}
+.price button{
+    margin-left: 50px;
+    background-color: #000;
+    color: white;
+    font-weight: bolder;
+    padding: 2px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.price button:hover{
+    position:relative;
+   width:160px;
+   height: 50px;
+}
+.price p{
+    font-size: 24px;
+    font-weight: 800;
+}
+.page3{
+    box-shadow: 5px 5px 20px black;
+    background-color: whitesmoke;
+    border-radius: 22px;
+}
+.page3 h1{
+    padding-top: 50px;
+    text-align: center;
+    text-shadow: 2px 3px 5px black;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.page3 ul{
+    list-style:none;
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 100px;
+    
+}
+.page3 ul li{
+    font-size:2rem;
+    display: inline;
+    color: black;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+}
+.page3 ul li:hover{
+   background-color: black;
+   color: white;
+   border: 2px solid black;
+   box-shadow: 3px 3px 5px black;
+   font-weight: 900;
+   width: 22px;
+}
+.cars{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+   margin-top: 50px;
+   height: 70vh;
+}
+.carbox{
+    box-shadow: 5px 5px 20px black;
+    height: 60vh;
+    width: 25vw;
+}
+#audicard figcaption{
+    font-size: 1.5rem;
+    text-align:left;
+}
+#audicard p{
+    text-align: left;
+    margin-top: 22px;
+    font-size:18px;
+}
+#audicard p:nth-child(3){
+    font-size: 22px;
+}
+#audicard p a{
+ background-color: black;
+ border: 2px solid black;
+ border-radius: 5px;
+ text-decoration: none;
+ color: white;
+ margin-left: 30px ;
+ margin-bottom: 30px;
+ font-size: 26px;
+}
+
+#teslacard figcaption{
+    font-size: 1.5rem;
+    text-align:left;
+}
+#teslacard p{
+    text-align: left;
+    margin-top: 22px;
+    font-size:18px;
+}
+#teslacard p:nth-child(3){
+    font-size: 22px;
+}
+#teslacard p a{
+ background-color: black;
+ border: 2px solid black;
+ border-radius: 5px;
+ text-decoration: none;
+ color: white;
+ margin-left: 30px ;
+ margin-bottom: 30px;
+ font-size: 26px;
+}
+#teslacard figcaption{
+    font-size: 1.5rem;
+    text-align:left;
+}
+#teslacard p{
+    text-align: left;
+    margin-top: 22px;
+    font-size:18px;
+}
+#teslacard p:nth-child(3){
+    font-size: 22px;
+}
+#teslacard p a{
+ background-color: black;
+ border: 2px solid black;
+ border-radius: 5px;
+ text-decoration: none;
+ color: white;
+ margin-left: 30px ;
+ margin-bottom: 30px;
+ font-size: 26px;
+}
+#teslacard{
+    line-height:40px;
+}
+#teslacard figcaption{
+    font-size: 1.5rem;
+    text-align:left;
+}
+#teslacard p{
+    text-align: left;
+    margin-top: 5px;
+    font-size:18px;
+}
+#teslacard p:nth-child(3){
+    font-size: 22px;
+}
+#teslacard p a{
+ background-color: black;
+ border: 2px solid black;
+ border-radius: 5px;
+ text-decoration: none;
+ color: white;
+ margin-left: 30px ;
+ margin-bottom: 30px;
+ font-size: 26px;
+}
+#bmwcard figcaption{
+    font-size: 1.5rem;
+    text-align:left;
+}
+#bmwcard p{
+    text-align: left;
+    margin-top: 22px;
+    font-size:18px;
+}
+#bmwcard p:nth-child(3){
+    font-size: 22px;
+}
+#bmwcard p a{
+ background-color: black;
+ border: 2px solid black;
+ border-radius: 5px;
+ text-decoration: none;
+ color: white;
+ margin-left: 30px ;
+ margin-bottom: 30px;
+ font-size: 26px;
+}
+.image-container{
+    padding-left: 20px;
+}
+.page4h{
+display: block;
+    margin-top: 40px;
+    text-align: center;
+    font-size:3rem;
+}
+.page4{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+main p{
+    font-size: 2.5rem;
+}
+.lisd ul{
+    list-style: none;
+    line-height: 3rem;
+}
+.lisd h3{
+    font-size: 24px;
+}
+.lisd li{
+    font-size: 22px;
+}
+footer{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 3px 10px black;
+}
+.foot{
+    padding-top:100px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot1 h2{
+    font-size:2rem;
+}
+.foot section h2{
+    margin-bottom: 20px;
+}
+.foot section a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.foot section a:hover{
+    text-decoration: underline;
+    color:red;
+}
+.foot section li{
+    list-style: none;
+    line-height: 50px;
+}
+.foot section input{
+    width: 50%;
+    height: 10%;
+    font-size: 22px;
+    font-family: cursive;
+}
+.foot section input:focus{
+  border: 2px solid red;
+  box-shadow: 2px 3px 10px white;
+}
+.foot section label{
+    background-color:red;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    width: auto
+}
+.icon2{
+    display: inline;
+    font-size: 24px;
+    color:#fff;
+}
+.socialmedia-icon{
+    display: flex;
+    justify-content:flex-end;
+    gap: 1rem;
+    padding-right:50px;
+}
+.socialmedia-icon ul{
+  
+}
+.socialmedia-icon li{
+    list-style: none;
+    font-size: 34px;
+}
